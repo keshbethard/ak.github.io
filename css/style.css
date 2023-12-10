@@ -1,0 +1,130 @@
+html, body {
+    background-color: #fbf8f5;
+    background: url(../img/bg.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Open Sans';
+    color: #000;
+    
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.logo-box {
+    width: 600px;
+}
+
+.logo {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.place {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 18px;
+}
+
+.place a, .place a:hover, .place a:visited {
+    color: #000;
+}
+
+.place .material-icons {
+    font-size: 24px;
+    vertical-align: -2px;
+}
+
+.flag {
+    width: 24px;
+    height: 24px;
+}
+
+.message-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.message-box div {
+    line-height: 32px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.message-box div img {
+    margin-right: 10px;
+}
+
+.rsvp {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 12px;
+    border: solid 1px #000;
+    padding: 15px;
+}
+
+.rsvp a, .rsvp a:hover, .rsvp a:visited {
+    color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 75%;
+        margin-bottom: 40px;
+    }
+    .logo-box {
+        width: 100%;
+    }
+
+    .container {
+        width: calc(100% - 40px);
+    }
+
+    .place {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .place .material-icons {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .flag {
+        width: 14px;
+        height: 14px;
+    }
+
+    .message-box {
+        margin-top: 80px;
+        font-size: 10px;
+    }
+  }
