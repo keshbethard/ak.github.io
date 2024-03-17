@@ -43,6 +43,10 @@ details summary {
     letter-spacing: 2px;
 }
 
+details summary::-webkit-details-marker {
+    display: none;
+}
+
 details summary img {
     margin-right: 10px;
 }
