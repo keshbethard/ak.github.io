@@ -46,6 +46,7 @@ details summary {
 details > summary::marker, /* Latest Chrome, Edge, Firefox */ 
 details > summary::-webkit-details-marker /* Safari */ {
   display: none;
+  color: #fbf8f5 !important
 }
 
 details summary img {
