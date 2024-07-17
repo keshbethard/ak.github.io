@@ -17,8 +17,9 @@ h2 {
 }
 
 hr {
-    border-top: 1px dashed #000;
+    border-top: 1px dashed #d80027;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 details {
@@ -91,9 +92,22 @@ details summary:hover {
 
 .logo {
     display: block;
-    width: 300px;
+    width: 200px;
     margin: 0 auto;
     margin-bottom: 40px;
+}
+
+.important {
+    border: dashed 2px #d80027;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.important a {
+    font-weight: 700;
 }
 
 .place {
